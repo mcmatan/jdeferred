@@ -457,9 +457,10 @@ AAR with Maven:
 
 AAR with Gradle:
 ```
-compile 'org.jdeferred.v2:jdeferred-android-aar:${version}'
+implementation 
+compile 'org.jdeferred.v2:jdeferred-android-aar:2.0.0-beta1'
 // or
-compile 'org.jdeferred.v2:jdeferred-android-aar:${version}@aar'
+compile 'org.jdeferred.v2:jdeferred-android-aar:2.0.0-beta1@aar'
 ```
 
 Find available versions on [Maven Central Repository](http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.jdeferred.v2%22%20AND%20a%3A%22jdeferred-core%22).
